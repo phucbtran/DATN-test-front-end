@@ -1,0 +1,149 @@
+@import url("../plugins/font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("../plugins/animate.min.css");
+@import url("../plugins/bootstrap.min.css");
+@import url("../plugins/bootstrap-select.min.css");
+@import url("../plugins/jquery-ui/jquery-ui.css");
+@import url("../plugins/timePicker.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700|Source+Sans+Pro:400,600,700");
+body {
+  line-height: 1.4;
+  font-family: "Source Sans Pro", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*=== MEDIA QUERY ===*/
+body {
+  font-size: 15px;
+  color: #777777;
+  line-height: 1.8em;
+  font-weight: 400;
+  background: #ffffff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.page-wrapper {
+  overflow: hidden;
+}
+
+.page-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+}
+
+.header-top {
+  position: relative;
+  margin: 0 auto;
+  width: 70.7%;
+  min-width: 300px;
+  padding: 13px 0px 12px 0px;
+}
+
+.logo-header {
+  float: left;
+}
+
+.clear {
+  clear: left;
+  clear: right;
+}
+
+.right-side {
+  float: right;
+}
+
+.language {
+  float: right;
+}
+
+.border-bottom {
+  border-bottom: 1px solid;
+}
+
+.main-category {
+  position: relative;
+  margin: 0 auto;
+  width: 70.7%;
+  min-width: 300px;
+}
+
+.nav {
+  text-transform: uppercase;
+}
+
+.nav li {
+  margin-right: 23px;
+  padding-top: 5px;
+}
+
+.nav li.active a {
+  color: #337ab7;
+  border-bottom: 2px solid;
+}
+
+.nav li a {
+  text-transform: uppercase;
+  color: black;
+  padding: 0 !important;
+
+}
+
+.navbar-nav li a {
+  padding: 0 !important;
+}
+
+.navbar-collapse {
+  padding: 0 !important;
+}
+
+
+
+.hero-slider {
+  height: 67vh;
+}
+
+.hero-slider .slider-item {
+  height: 67vh;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-slider .slider-item:before {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  content: '';
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-slider .content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-slider .content.style h2 {
+  font-size: 60px;
+}
